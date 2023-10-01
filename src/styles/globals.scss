@@ -1,0 +1,35 @@
+@use '@/styles/mixins' as *;
+@import '@/styles/variables';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  padding-block: 1rem;
+  padding-inline: 0.5rem;
+  line-height: 1.5;
+  background-color: $base;
+
+  @include media(md) {
+    padding-inline: 8rem;
+  }
+}

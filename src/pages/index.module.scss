@@ -1,0 +1,16 @@
+@use '@/styles/mixins' as *;
+@import '@/styles/variables';
+
+.heading {
+  width: 100%;
+  padding-block: 1rem;
+  font-size: 1.5rem;
+  color: $accent;
+
+  @include media(md) {
+    padding-block: 2rem;
+    font-size: 2rem;
+  }
+
+  text-align: center;
+}

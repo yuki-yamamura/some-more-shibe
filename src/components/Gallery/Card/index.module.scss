@@ -1,0 +1,15 @@
+.module {
+  --height: 0px;
+  --grid-row-end: '';
+
+  position: relative;
+  grid-row-end: var(--grid-row-end);
+  height: var(--height);
+}
+
+.img {
+  background-image: url('/card-placeholder.jpg');
+  background-size: cover;
+  border: 1px;
+  border-radius: 0.5rem;
+}
