@@ -23,7 +23,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 
 const Page = ({ shibes }: Props) => (
   <>
-    <h1 className={styles.heading}>Some More Shiba</h1>
+    <h1 className={styles.heading}>Some More Shibe</h1>
     <Gallery initialShibes={shibes} />
   </>
 );
