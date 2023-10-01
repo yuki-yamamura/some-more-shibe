@@ -52,6 +52,7 @@ const Card = ({ shibe: { id, url, height, width } }: Props) => {
         src={url}
         alt="shibe"
         fill
+        unoptimized
         sizes="100vw (min-width: 768px) 50vw (min-width: 1024px) 33vw"
         className={styles.img}
       />
